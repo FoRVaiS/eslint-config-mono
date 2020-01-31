@@ -1,0 +1,34 @@
+{
+  "name": "@forvais/eslint-config-base",
+  "description": "Configuration file for base ESLint rules",
+  "version": "1.0.0",
+  "author": "Benjamin Chiang <forvais@nebulous.pw>",
+  "bugs": {
+    "url": "https://github.com/FoRVaiS/eslint-config-mono/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint-find-rules": "^3.4.0"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "homepage": "https://github.com/FoRVaiS/eslint-config-mono#readme",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "forvais"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": ">=5.15.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FoRVaiS/eslint-config-mono.git"
+  },
+  "scripts": {
+    "test": "eslint-find-rules --unused"
+  }
+}

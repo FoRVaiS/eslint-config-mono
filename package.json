@@ -1,0 +1,45 @@
+{
+  "name": "eslint-config-mono",
+  "description": "Forvais's ESLint configuration monorepo",
+  "version": "1.0.0",
+  "author": "Benjamin Chiang <forvais@nebulous.pw>",
+  "bugs": {
+    "url": "https://github.com/FoRVaiS/eslint-config-mono/issues"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.1.0",
+    "eslint": "^6.8.0"
+  },
+  "homepage": "https://github.com/FoRVaiS/eslint-config-mono#readme",
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "keywords": [],
+  "license": "MIT",
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FoRVaiS/eslint-config-mono.git"
+  },
+  "scripts": {
+    "commit": "npm run test && git-cz",
+    "test": "npm run --silent test:config:base",
+    "test:config:base": "cd packages/base && npm test"
+  }
+}
