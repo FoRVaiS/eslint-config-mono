@@ -39,7 +39,8 @@
   },
   "scripts": {
     "commit": "npm run test && git-cz",
-    "test": "npm run --silent test:config:base",
-    "test:config:base": "cd packages/base && npm test"
+    "test": "npm run --silent test:config:base && npm run --silent test:config:node",
+    "test:config:base": "cd packages/base && npm test",
+    "test:config:node": "cd packages/node && npm test"
   }
 }
