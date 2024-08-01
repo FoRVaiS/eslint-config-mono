@@ -1,7 +1,7 @@
 {
   "name": "@forvais/eslint-config-node",
   "description": "Configuration file for Node ESLint rules",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "author": "Benjamin Chiang <chiangbenjamin991@gmail.com>",
   "bugs": {
     "url": "https://github.com/FoRVaiS/eslint-config-mono/issues"
@@ -11,8 +11,8 @@
     "eslint-plugin-node": "^11.1.0"
   },
   "engines": {
-    "eslint": ">=5.16.0",
-    "node": ">=4"
+    "eslint": ">=9.8.0",
+    "node": ">=20.0.0"
   },
   "homepage": "https://github.com/FoRVaiS/eslint-config-mono#readme",
   "keywords": [
@@ -23,15 +23,12 @@
   "license": "MIT",
   "main": "index.js",
   "peerDependencies": {
-    "@forvais/eslint-config-base": ">=1.0.0",
-    "eslint": ">=5.16.0",
+    "@forvais/eslint-config-base": ">=2.0.0",
+    "eslint": ">=9.8.0",
     "eslint-plugin-node": ">=11.1.0"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FoRVaiS/eslint-config-mono.git"
-  },
-  "scripts": {
-    "test": "eslint-find-rules --unused --no-core"
   }
 }
