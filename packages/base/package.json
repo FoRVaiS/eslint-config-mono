@@ -7,9 +7,7 @@
     "url": "https://github.com/FoRVaiS/eslint-config-mono/issues"
   },
   "dependencies": {},
-  "devDependencies": {
-    "eslint-find-rules": "^3.4.0"
-  },
+  "devDependencies": {},
   "engines": {
     "node": ">=4"
   },
