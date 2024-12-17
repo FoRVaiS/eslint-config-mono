@@ -26,7 +26,7 @@
     "url": "git+https://github.com/FoRVaiS/eslint-config-mono.git"
   },
   "dependencies": {
-    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-n": "^17.15.0",
     "globals": "^15.13.0"
   }
 }
