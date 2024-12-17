@@ -1,7 +1,6 @@
 {
   "name": "eslint-config-mono",
   "description": "Forvais's ESLint configuration monorepo",
-  "version": "3.0.0",
   "author": "Benjamin Chiang <forvais@nebulous.pw>",
   "workspaces": [
     "packages/base",
